@@ -1,0 +1,46 @@
+CRITICAL - 2022-11-10 19:56:15 --> Undefined variable: productos
+in APPPATH\Views\listadoproductos.php on line 25.
+ 1 APPPATH\Views\listadoproductos.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productos', 'APPPATH\\Views\\listadoproductos.php', 25, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listadoproductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('listadoproductos', [], true)
+ 5 APPPATH\Controllers\Producto.php(23): view('listadoproductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->listar_productos()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-10 20:31:51 --> syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Producto.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Producto.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Producto')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Producto')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Producto')
+ 5 SYSTEMPATH\CodeIgniter.php(857): class_exists('\\App\\Controllers\\Producto', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-10 20:54:59 --> mysqli_sql_exception: Column 'categoria' cannot be null in C:\wamp64\www\controlinv\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\controlinv\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\wamp64\www\controlinv\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\wamp64\www\controlinv\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\wamp64\www\controlinv\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\wamp64\www\controlinv\app\Models\ProductoModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\controlinv\app\Controllers\Producto.php(39): App\Models\ProductoModel->insertProductos(Array)
+#6 C:\wamp64\www\controlinv\system\CodeIgniter.php(907): App\Controllers\Producto->insertar_producto()
+#7 C:\wamp64\www\controlinv\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#8 C:\wamp64\www\controlinv\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\controlinv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-10 20:54:59 --> Column 'categoria' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `producto` (`nombre`, `descripcion`, `marca`, `categoria`, `preciocosto`, `preciounitario`, `cantidad`, `fechacompra`) VALUES (\'LINKSYS BUSINESS ACCESS POINT INTERIOR TAA\', \'6\', \'LINKSYS\', NULL, \'775\', \'1095\', \'10\', \'1/11/2022\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `producto` (`nombre`, `descripcion`, `marca`, `categoria`, `preciocosto`, `preciounitario`, `cantidad`, `fechacompra`) VALUES (\'LINKSYS BUSINESS ACCESS POINT INTERIOR TAA\', \'6\', \'LINKSYS\', NULL, \'775\', \'1095\', \'10\', \'1/11/2022\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `producto` (`nombre`, `descripcion`, `marca`, `categoria`, `preciocosto`, `preciounitario`, `cantidad`, `fechacompra`) VALUES (\'LINKSYS BUSINESS ACCESS POINT INTERIOR TAA\', \'6\', \'LINKSYS\', NULL, \'775\', \'1095\', \'10\', \'1/11/2022\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `producto` (`nombre`, `descripcion`, `marca`, `categoria`, `preciocosto`, `preciounitario`, `cantidad`, `fechacompra`) VALUES (:nombre:, :descripcion:, :marca:, :categoria:, :preciocosto:, :preciounitario:, :cantidad:, :fechacompra:)', [...], false)
+ 5 APPPATH\Models\ProductoModel.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Producto.php(39): App\Models\ProductoModel->insertProductos([...])
+ 7 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->insertar_producto()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

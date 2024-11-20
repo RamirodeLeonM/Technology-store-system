@@ -1,0 +1,337 @@
+CRITICAL - 2022-11-13 10:11:04 --> Undefined property: App\Controllers\Producto::$Search_Model
+in APPPATH\Controllers\Producto.php on line 84.
+ 1 APPPATH\Controllers\Producto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Producto::$Search_Model', 'APPPATH\\Controllers\\Producto.php', 84, [])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:11:37 --> Undefined property: App\Controllers\Producto::$ProductoModel
+in APPPATH\Controllers\Producto.php on line 84.
+ 1 APPPATH\Controllers\Producto.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Producto::$ProductoModel', 'APPPATH\\Controllers\\Producto.php', 84, [])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:12:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ProductoModel.php on line 76.
+ 1 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:13:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ProductoModel.php on line 76.
+ 1 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:15:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ProductoModel.php on line 76.
+ 1 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:16:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ProductoModel.php on line 78.
+ 1 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:16:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::like()
+in APPPATH\Models\ProductoModel.php on line 79.
+ 1 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:17:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ProductoModel.php(79): CodeIgniter\Model->__get('input')
+ 4 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:18:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ProductoModel.php(79): CodeIgniter\Model->__get('input')
+ 4 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:18:32 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ProductoModel.php(79): CodeIgniter\Model->__get('input')
+ 4 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:22:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ProductoModel.php on line 83.
+ 1 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:24:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ProductoModel.php on line 83.
+ 1 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:24:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ProductoModel.php on line 83.
+ 1 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:24:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::like()
+in APPPATH\Models\ProductoModel.php on line 85.
+ 1 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:24:45 --> Undefined variable: search
+in APPPATH\Models\ProductoModel.php on line 85.
+ 1 APPPATH\Models\ProductoModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: search', 'APPPATH\\Models\\ProductoModel.php', 85, [...])
+ 2 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:25:36 --> Too few arguments to function App\Models\ProductoModel::GetSearchdata(), 0 passed in C:\wamp64\www\controlinv\app\Controllers\Producto.php on line 84 and exactly 1 expected
+in APPPATH\Models\ProductoModel.php on line 75.
+ 1 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:26:02 --> Undefined variable: search
+in APPPATH\Models\ProductoModel.php on line 85.
+ 1 APPPATH\Models\ProductoModel.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: search', 'APPPATH\\Models\\ProductoModel.php', 85, [...])
+ 2 APPPATH\Controllers\Producto.php(84): App\Models\ProductoModel->GetSearchdata()
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:28:03 --> Undefined property: App\Controllers\Producto::$load
+in APPPATH\Controllers\Producto.php on line 85.
+ 1 APPPATH\Controllers\Producto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Producto::$load', 'APPPATH\\Controllers\\Producto.php', 85, [])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:28:25 --> Undefined property: App\Controllers\Producto::$load
+in APPPATH\Controllers\Producto.php on line 85.
+ 1 APPPATH\Controllers\Producto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Producto::$load', 'APPPATH\\Controllers\\Producto.php', 85, [])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:28:38 --> Undefined property: App\Controllers\Producto::$load
+in APPPATH\Controllers\Producto.php on line 85.
+ 1 APPPATH\Controllers\Producto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Producto::$load', 'APPPATH\\Controllers\\Producto.php', 85, [])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:29:51 --> Undefined property: App\Controllers\Producto::$load
+in APPPATH\Controllers\Producto.php on line 85.
+ 1 APPPATH\Controllers\Producto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Producto::$load', 'APPPATH\\Controllers\\Producto.php', 85, [])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:29:52 --> Undefined property: App\Controllers\Producto::$load
+in APPPATH\Controllers\Producto.php on line 85.
+ 1 APPPATH\Controllers\Producto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Producto::$load', 'APPPATH\\Controllers\\Producto.php', 85, [])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:29:54 --> Undefined property: App\Controllers\Producto::$load
+in APPPATH\Controllers\Producto.php on line 85.
+ 1 APPPATH\Controllers\Producto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Producto::$load', 'APPPATH\\Controllers\\Producto.php', 85, [])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:30:00 --> Undefined property: App\Controllers\Producto::$load
+in APPPATH\Controllers\Producto.php on line 85.
+ 1 APPPATH\Controllers\Producto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Producto::$load', 'APPPATH\\Controllers\\Producto.php', 85, [])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:30:29 --> Undefined property: App\Controllers\Producto::$load
+in APPPATH\Controllers\Producto.php on line 85.
+ 1 APPPATH\Controllers\Producto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Producto::$load', 'APPPATH\\Controllers\\Producto.php', 85, [])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:33:04 --> Undefined property: App\Controllers\Producto::$input
+in APPPATH\Controllers\Producto.php on line 85.
+ 1 APPPATH\Controllers\Producto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Producto::$input', 'APPPATH\\Controllers\\Producto.php', 85, [])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->search()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:34:46 --> Undefined property: App\Controllers\Producto::$Search_Model
+in APPPATH\Controllers\Producto.php on line 85.
+ 1 APPPATH\Controllers\Producto.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Producto::$Search_Model', 'APPPATH\\Controllers\\Producto.php', 85, [])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:35:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Producto.php(85): CodeIgniter\Model->__call('GetSearchdata', [])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:35:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ProductoModel.php on line 76.
+ 1 APPPATH\Controllers\Producto.php(85): App\Models\ProductoModel->GetSearchdata()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->searchfunction()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:52:50 --> Undefined property: App\Controllers\Producto::$input
+in APPPATH\Controllers\Producto.php on line 79.
+ 1 APPPATH\Controllers\Producto.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Producto::$input', 'APPPATH\\Controllers\\Producto.php', 79, [])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:55:24 --> Undefined variable: id
+in APPPATH\Controllers\Producto.php on line 80.
+ 1 APPPATH\Controllers\Producto.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Controllers\\Producto.php', 80, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:55:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Producto.php(80): CodeIgniter\Model->__call('buscar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->buscar()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:56:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Producto.php(80): CodeIgniter\Model->__call('buscar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->buscar()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:56:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Producto.php(80): CodeIgniter\Model->__call('buscar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->buscar()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:56:32 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Producto.php(80): CodeIgniter\Model->__call('buscar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->buscar()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:57:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Producto.php(80): CodeIgniter\Model->__call('buscar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->buscar()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:57:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Producto.php(80): CodeIgniter\Model->__call('buscar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->buscar()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 10:58:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Producto.php(80): CodeIgniter\Model->__call('buscar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->buscar()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 11:01:56 --> Undefined variable: productos
+in APPPATH\Views\principal.php on line 38.
+ 1 APPPATH\Views\principal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productos', 'APPPATH\\Views\\principal.php', 38, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('principal', [], true)
+ 5 APPPATH\Controllers\Usuario.php(22): view('principal')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Usuario->principal()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 11:01:59 --> Undefined variable: productos
+in APPPATH\Views\principal.php on line 38.
+ 1 APPPATH\Views\principal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productos', 'APPPATH\\Views\\principal.php', 38, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('principal', [], true)
+ 5 APPPATH\Controllers\Usuario.php(22): view('principal')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Usuario->principal()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 11:03:27 --> Undefined variable: productos
+in APPPATH\Views\principal.php on line 38.
+ 1 APPPATH\Views\principal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productos', 'APPPATH\\Views\\principal.php', 38, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('principal', [], true)
+ 5 APPPATH\Controllers\Usuario.php(22): view('principal')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Usuario->principal()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-13 11:03:33 --> Undefined variable: productos
+in APPPATH\Views\principal.php on line 38.
+ 1 APPPATH\Views\principal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: productos', 'APPPATH\\Views\\principal.php', 38, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('principal', [], true)
+ 5 APPPATH\Controllers\Usuario.php(22): view('principal')
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Usuario->principal()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

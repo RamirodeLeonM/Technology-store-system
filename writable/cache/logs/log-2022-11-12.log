@@ -1,0 +1,105 @@
+CRITICAL - 2022-11-12 09:24:20 --> Invalid file: listadousuario.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listadousuario.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('listadousuario', [], true)
+ 3 APPPATH\Controllers\Usuario.php(28): view('listadousuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Usuario->listar_usuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 15:07:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ProductoModel.php on line 21.
+ 1 APPPATH\Controllers\Producto.php(21): App\Models\ProductoModel->getProductos()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->listar_productos()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 15:10:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ProductoModel.php on line 21.
+ 1 APPPATH\Controllers\Producto.php(21): App\Models\ProductoModel->getProductos()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->listar_productos()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 15:11:25 --> Undefined variable: builder
+in APPPATH\Models\ProductoModel.php on line 22.
+ 1 APPPATH\Models\ProductoModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: builder', 'APPPATH\\Models\\ProductoModel.php', 22, [])
+ 2 APPPATH\Controllers\Producto.php(21): App\Models\ProductoModel->getProductos()
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->listar_productos()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 15:11:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ProductoModel.php on line 21.
+ 1 APPPATH\Controllers\Producto.php(21): App\Models\ProductoModel->getProductos()
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->listar_productos()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 15:15:15 --> Undefined variable: builder
+in APPPATH\Models\ProductoModel.php on line 31.
+ 1 APPPATH\Models\ProductoModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: builder', 'APPPATH\\Models\\ProductoModel.php', 31, [...])
+ 2 APPPATH\Controllers\Producto.php(21): App\Models\ProductoModel->getProductos()
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->listar_productos()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-12 15:19:08 --> mysqli_sql_exception: Unknown column 'c.categoria' in 'field list' in C:\wamp64\www\controlinv\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\controlinv\system\Database\MySQLi\Connection.php(292): mysqli->query('Select p.nombre...', 0)
+#1 C:\wamp64\www\controlinv\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('Select p.nombre...')
+#2 C:\wamp64\www\controlinv\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('Select p.nombre...')
+#3 C:\wamp64\www\controlinv\app\Models\ProductoModel.php(30): CodeIgniter\Database\BaseConnection->query('Select p.nombre...')
+#4 C:\wamp64\www\controlinv\app\Controllers\Producto.php(21): App\Models\ProductoModel->getProductos()
+#5 C:\wamp64\www\controlinv\system\CodeIgniter.php(907): App\Controllers\Producto->listar_productos()
+#6 C:\wamp64\www\controlinv\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\wamp64\www\controlinv\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\controlinv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-12 15:19:08 --> Unknown column 'c.categoria' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('Select p.nombre, p.descripcion, p.marca, c.categoria, p.preciocosto, p.preciounitario, p.cantidad, p.fechacompra from producto p, categoria c 
+        where p.categoria = c.idcategoria', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('Select p.nombre, p.descripcion, p.marca, c.categoria, p.preciocosto, p.preciounitario, p.cantidad, p.fechacompra from producto p, categoria c 
+        where p.categoria = c.idcategoria')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('Select p.nombre, p.descripcion, p.marca, c.categoria, p.preciocosto, p.preciounitario, p.cantidad, p.fechacompra from producto p, categoria c 
+        where p.categoria = c.idcategoria')
+ 4 APPPATH\Models\ProductoModel.php(30): CodeIgniter\Database\BaseConnection->query('Select p.nombre, p.descripcion, p.marca, c.categoria, p.preciocosto, p.preciounitario, p.cantidad, p.fechacompra from producto p, categoria c 
+        where p.categoria = c.idcategoria')
+ 5 APPPATH\Controllers\Producto.php(21): App\Models\ProductoModel->getProductos()
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->listar_productos()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 15:19:56 --> Undefined index: idproducto
+in APPPATH\Views\listadoproductos.php on line 53.
+ 1 APPPATH\Views\listadoproductos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: idproducto', 'APPPATH\\Views\\listadoproductos.php', 53, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listadoproductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('listadoproductos', [], true)
+ 5 APPPATH\Controllers\Producto.php(23): view('listadoproductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->listar_productos()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 15:20:22 --> Undefined index: categoria
+in APPPATH\Views\listadoproductos.php on line 57.
+ 1 APPPATH\Views\listadoproductos.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: categoria', 'APPPATH\\Views\\listadoproductos.php', 57, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\listadoproductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('listadoproductos', [], true)
+ 5 APPPATH\Controllers\Producto.php(23): view('listadoproductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Producto->listar_productos()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-12 15:20:52 --> syntax error, unexpected 'categoria' (T_STRING), expecting ')'
+in APPPATH\Models\ProductoModel.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ProductoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProductoModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProductoModel')
+ 4 APPPATH\Controllers\Producto.php(15): spl_autoload_call('App\\Models\\ProductoModel')
+ 5 SYSTEMPATH\CodeIgniter.php(869): App\Controllers\Producto->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
