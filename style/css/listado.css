@@ -1,0 +1,79 @@
+
+* {
+    box-sizing: border-box;
+  }
+  h1{
+    color: rgb(203, 213, 202);
+    font-size:500%
+  }
+  h2,h3{
+    display: block;
+    text-align: center;
+  }
+  img{
+    display: block;
+    margin: 0px auto;
+   }
+  body {
+    margin: 0;
+    
+  }
+  
+  /* encabezado */
+  header {  
+    background-image: url(../img/header1.jpg);
+    background-size: cover;
+    height: 250px;
+    padding: 20px;
+    text-align: center; 
+  }
+  /* barra de navegacion */ 
+  nav {
+    overflow: hidden;
+    background-color: rgb(14, 203, 146);
+  }
+  /*barra de navegacion, enlaces */
+  nav>a {
+    float: left;
+    display: block;
+    color: #080808;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /*quitar la linea de enlace*/
+  }
+  
+  /* Cambio de color al colocar el puntero encima*/
+  nav > a:hover {
+    background-color: #ddd;
+    color: rgb(203, 47, 47);
+  }
+  /* main */
+  main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /*
+  aside{
+    float: left;
+    padding: 10px;
+    text-align: justify;
+    width: 50%;
+  }
+  */
+  section{
+    padding: 3% 3% 3% 3%;
+    /*padding-left: 10%;
+    padding-right: 10%;*/
+    text-align: center;
+    width: 100%;
+    /*background-color: rgb(105, 199, 249);*/
+  }
+  footer{
+    /*background-image: url(../img/header2.jpg);*/
+    background-color: rgb(14, 203, 146);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+  }
+  

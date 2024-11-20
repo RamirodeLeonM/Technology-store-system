@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: rgb(14, 203, 146);
+  }
+section{
+    padding: 15% 3% 3% 3%;
+    /*padding-left: 10%;
+    padding-right: 10%;*/
+    text-align: center;
+    width: 100%;
+    /*background-color: rgb(105, 199, 249);*/
+  }
+
+  
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
